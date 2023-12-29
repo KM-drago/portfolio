@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <div className="mb-5">
         <h1 className="text-2xl">Hello,</h1>
-        <h2 className="text-5xl">I'm Kasun Mendis</h2>
+        <h2 className="text-5xl">I&apos;m Kasun Mendis</h2>
         <p>
           a Final Year Computer Science Undergraduate at <a href="https://ucsc.cmb.ac.lk/">UCSC </a>.
         </p>
