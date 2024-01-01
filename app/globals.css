@@ -3,41 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: 0, 0, 0; */
+  --foreground-rgb: #0f172a;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
   }
-}
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  padding: 1rem;
 } */
 
 body {
-  margin: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: linear-gradient(45deg, #b4aee8, #d8c3a5, #a5cdc3, #b4aee8);
-  background-size: 400% 400%;
-  animation: gradientAnimation 10s infinite;
-  backface-visibility: hidden;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background-color: var(--foreground-rgb);
 }
