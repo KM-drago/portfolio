@@ -24,7 +24,7 @@ export default function Contact() {
           </svg>
         </a>
       </div>
-      <p className="text-center">I'm on the lookout for opportunities to thrive as a software engineer. Come say hi, I'll get back to you as soon as I can.</p>
+      <p className="text-center">I&apos;m on the lookout for opportunities to thrive as a software engineer. Come say hi, I&apos;ll get back to you as soon as I can.</p>
     </div>
   );
 }
