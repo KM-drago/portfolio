@@ -8,7 +8,7 @@ export default function About() {
         <h1 className="portfolio-title">
           Hello, I&apos;m <span>Kasun Mendis</span>
         </h1>
-        <p className="portfolio-copy">Software engineer with roots in backend and distributed systems — building microservices that scale, leading end-to-end technical delivery, and tightening the feedback loops that keep systems reliable. I care about the craft: clean design, long-term maintainability, and leveraging AI to ship better, faster. Outside core work, I'm drawn to ML, game development, and the elegance of well-designed systems.</p>
+        <p className="portfolio-copy">Software engineer with roots in backend and distributed systems — building microservices that scale, leading end-to-end technical delivery, and tightening the feedback loops that keep systems reliable. I care about the craft: clean design, long-term maintainability, and leveraging AI to ship better, faster. Outside core work, I&apos;m drawn to ML, game development, and the elegance of well-designed systems.</p>
         <div className="portfolio-actions">
           <a href="#projects" className="portfolio-button portfolio-button--primary">
             See My Experience
@@ -22,7 +22,7 @@ export default function About() {
       <div id="tech-stack" className="portfolio-card">
         <div className="portfolio-section__heading">
           <p className="portfolio-eyebrow">Tech stack</p>
-          <h2>Tools I've Worked With</h2>
+          <h2>Tools I&apos;ve Worked With</h2>
         </div>
         <div className="portfolio-tech-grid">
           {techStack.map((tool) => (

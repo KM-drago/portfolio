@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="portfolio-section__heading">
         <p className="portfolio-eyebrow">Projects</p>
         <h2>Most Notable</h2>
-        <p className="portfolio-copy">I'm drawn to building tools that solve my own problems, often pulling in AI and machine learning to get there.</p>
+        <p className="portfolio-copy">I&apos;m drawn to building tools that solve my own problems, often pulling in AI and machine learning to get there.</p>
       </div>
 
       <div className="portfolio-project-grid">
