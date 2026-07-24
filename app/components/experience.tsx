@@ -15,9 +15,15 @@ const experience = [
       ["Served as a ", <strong key="security-incident">primary developer supporting the investigation of a major security incident</strong>, ", helping identify root causes and implement corrective measures to strengthen system security."],
     ],
   },
+  {
+    company: "ReviQu",
+    role: "Founding Engineer",
+    dates: "Aug 2024 - Dec 2025",
+    highlights: [["Architected and built a RAG-powered web app that delivers context-aware answers to user queries by leveraging Google Maps reviews as a knowledge base."], ["Designed the end-to-end system architecture with a focus on minimizing operational costs and reducing response latency. "], ["Built a companion browser extension that embeds natively into Google Maps, giving users direct access to ReviQu without leaving their workflow. "], ["Integrated tRPC and Clerk into the WXT framework to reuse the existing backend API and authentication layer, keeping the codebase lean and consistent. "], ["Integrated Stripe for subscription management, enabling seamless monetization with support for recurring billing flows."], ["Collaborated with a UI/UX Engineer to craft an intuitive, visually appealing product experience from the ground up."]],
+  },
 ];
 
-export default function Contact() {
+export default function Experience() {
   return (
     <section id="experience" className="portfolio-section">
       <div className="portfolio-section__heading">
