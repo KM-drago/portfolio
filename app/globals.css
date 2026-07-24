@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+.portfolio-link--accent {
+  color: var(--color-accent);
+}
+
 .portfolio-page {
   max-width: 1200px;
   margin: 0 auto;
@@ -124,7 +128,7 @@ a {
 
 .portfolio-copy {
   margin: 1rem 0 0;
-  max-width: 68ch;
+  max-width: 100%;
   color: var(--color-text-muted);
   line-height: 1.7;
 }
@@ -193,6 +197,10 @@ a {
   padding: 1.25rem;
 }
 
+.portfolio-card--small {
+  padding: 0.9rem 1rem;
+}
+
 .portfolio-section__heading h2 {
   margin: 0 0 0.5rem;
   font-size: 1.5rem;
@@ -235,6 +243,7 @@ a {
 .portfolio-project__header h3 {
   margin: 0;
   font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .portfolio-timeline__meta,
